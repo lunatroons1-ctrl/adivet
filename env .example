@@ -1,0 +1,17 @@
+# ADIVET: variables de entorno (se cargan en Railway; NUNCA subas el .env a GitHub)
+ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
+DATABASE_URL=postgresql://usuario:password@host:5432/railway
+META_ACCESS_TOKEN=token_permanente_del_usuario_del_sistema
+META_PHONE_NUMBER_ID=id_del_numero_en_meta
+META_VERIFY_TOKEN=elige_un_texto_secreto
+# Número de la clínica que recibe avisos de comprobantes y urgencias (formato 573001234567)
+CLINICA_ALERTA_NUMERO=573143230175
+# Google Calendar (opcional)
+GOOGLE_CALENDAR_ID=
+GOOGLE_SERVICE_ACCOUNT_JSON=
+CITAS_SIMULTANEAS=1
+# Días tras una terapia para el recordatorio de control
+RECORDATORIO_DIAS=15
+# Fecha desde la que el panel muestra conversaciones
+CONVERSACIONES_DESDE=2026-11-12T00:00:00-05:00
+PORT=3000
